@@ -4,23 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glassmorphisim</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="..styles/styles.css">
 </head>
 <body>
-    <section>
-        <div class="circle-1"></div>
-        <div class="circle-2"></div>
-        <div class="circle-3"></div>
-        <div class="card">
-            <div>
-                <h1>Ahmed Abdul Karim</h1>
-                <p>4659 4309 6853 5307</p>
+    <!-- background circles for the glass effect to blur -->
+    <div class="background-circles">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+
+    <div class="container">
+        <!-- The main glass card -->
+        <div class="about-card">
+            <div class="card-header">
+                <img src="#" alt="profile picture" class="profile-img">
+                <h2>Ahmed Abdul Karim</h2>
+                <p class="title">Software Engineer</p>
             </div>
-            <p>
-                09/29
-            </p>
-                <i class="ri-visa-line"></i>
+
+            <div class="card-body">
+                <h3>About Me</h3>
+                <p>A productive lad trying to make it in life.</p>
+
+                <div class="skills">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">Web Development</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <a href="github.com/AAK-5307" class="btn-primary">View Github</a>
+                <a href="https://www.linkedin.com/in/ahmed-abdul-karim-705302368/" class="btn-secondary">View LinkedIn</a>
+            </div>
         </div>
-    </section>
+    </div>
 </body>
 </html>
