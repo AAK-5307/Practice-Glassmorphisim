@@ -82,8 +82,8 @@ body {
 /* Card's internal content specifics */
 
 .card-header .profile-img {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 3px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 15px;
@@ -111,4 +111,57 @@ body {
     line-height: 1.6;
     color: #cbd5e1;
     margin-bottom: 20px;
+}
+
+/* Skills and skill tags info */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.skill-tag {
+    font-size: 0.75rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons */
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn-primary, btn-secondary {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: all 0.3 ease;
+}
+
+.btn-primary {
+    background: #3b82f6;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #2563eb;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.08);
+    color: #f1f5f9;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
 }
