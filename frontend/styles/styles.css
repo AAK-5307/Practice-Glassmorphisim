@@ -78,3 +78,37 @@ body {
     color: #f1f5f9; /* off white for dark mode */
     text-align: center;
 }
+
+/* Card's internal content specifics */
+
+.card-header .profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+}
+
+.card-header h2 {
+    font-size: 1.6rem;
+    font-weight: 600px;
+}
+
+.card-header .title {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-bottom: 25px;
+}
+
+.card-body h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-body p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
